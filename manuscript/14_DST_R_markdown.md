@@ -1,6 +1,6 @@
 # R Markdown
 
-We've spent a lot of time getting R and RStudio working, learning about projects and version control - you are practically an expert at this! There is one last major functionality of R/RStudio that we would be remiss to not include in your introduction to R - [Markdown!](http://rmarkdown.rstudio.com/) 
+We've spent a lot of time getting R and RStudio working, learning about projects and version control - you are practically an expert at this! There is one last major functionality of R/RStudio that we would be remiss to not include in your introduction to R - [Markdown!](http://rmarkdown.rstudio.com/){target="_blank"} 
 
 ### What is R Markdown? 
 
@@ -9,7 +9,7 @@ R Markdown is a way of creating fully reproducible documents, in which both text
 - bullets  
 - **bold**  
 - *italics*  
-- [links](https://en.wikipedia.org/wiki/Rickrolling)  
+- [links](https://en.wikipedia.org/wiki/Rickrolling){target="_blank"}  
 - or run inline `r code`  
 
 And by the end of this lesson, you should be able to do each of those things too, and more! 
@@ -22,7 +22,7 @@ One of the main benefits is the reproducibility of using R Markdown. Since you c
 
 Another major benefit to R Markdown is that since it is plain text, it works very well with version control systems. It is easy to track what character changes occur between commits; unlike other formats that aren't plain text. For example, in one version of this lesson, I may have forgotten to bold **this** word. When I catch my mistake, I can make the plain text changes to signal I would like that word bolded, and in the commit, you can see the exact character changes that occurred to now make the word bold. 
 
-Check out [this video](https://vimeo.com/178485416) that the RStudio developers have released about R Markdown and what it is!  
+Check out [this video](https://vimeo.com/178485416){target="_blank"} that the RStudio developers have released about R Markdown and what it is!  
 
 ### Installation
 
@@ -85,7 +85,7 @@ One final thing we will go into detail on is making bulleted lists, like the one
 - Bullet  
 - List!
 
-This is a great starting point and there is so much more you can do with R Markdown. Thankfully, RStudio developers have produced an ["R Markdown cheatsheet"](http://www.rstudio.com/wp-content/uploads/2016/03/rmarkdown-cheatsheet-2.0.pdf) that we urge you to go check out and see everything you can do with R Markdown! The sky is the limit! 
+This is a great starting point and there is so much more you can do with R Markdown. Thankfully, RStudio developers have produced an ["R Markdown cheatsheet"](http://www.rstudio.com/wp-content/uploads/2016/03/rmarkdown-cheatsheet-2.0.pdf){target="_blank"} that we urge you to go check out and see everything you can do with R Markdown! The sky is the limit! 
 
 ### Summary
 

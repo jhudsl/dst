@@ -1,6 +1,6 @@
 # Getting help
 
-One of the main skills you are going to be called upon for as a data scientist is your ability to solve problems. And sometimes to do that, you need help. The ability to solve problems is at the root of data science; so the importance of being able to do so is paramount. In this lesson, we are going to equip you with some strategies to help you when you get stuck with a problem and need some help! Much of this information has been compiled from [Roger Peng's video](https://youtu.be/ZFaWxxzouCY) on "Getting Help" and [Eric Raymond's "How to ask questions the smart way"](http://www.catb.org/esr/faqs/smart-questions.html) - so definitely check out those resources!
+One of the main skills you are going to be called upon for as a data scientist is your ability to solve problems. And sometimes to do that, you need help. The ability to solve problems is at the root of data science; so the importance of being able to do so is paramount. In this lesson, we are going to equip you with some strategies to help you when you get stuck with a problem and need some help! Much of this information has been compiled from [Roger Peng's video](https://youtu.be/ZFaWxxzouCY){target="_blank"} on "Getting Help" and [Eric Raymond's "How to ask questions the smart way"](http://www.catb.org/esr/faqs/smart-questions.html){target="_blank"} - so definitely check out those resources!
 
 ### Why is knowing how to get help important?
 
@@ -14,9 +14,9 @@ Finally, troubleshooting and figuring out solutions to problems is a great, tran
 
 Before you begin asking others for help on your problem, there are a few steps you can take on your own. Oftentimes, the fastest answer is one you find for yourself. 
 
-One of your first stops for data analysis problems should be reading the manuals or [help files](https://www.r-project.org/help.html)(for R problems, try typing ?command) – if you post a question on a forum that is easily answered by the manual, you will often get a reply of [“Read the manual”](https://imgs.xkcd.com/comics/rtfm.png) … which is not the easiest way to get at the answer you were going for! 
+One of your first stops for data analysis problems should be reading the manuals or [help files](https://www.r-project.org/help.html){target="_blank"} (for R problems, try typing ?command) – if you post a question on a forum that is easily answered by the manual, you will often get a reply of [“Read the manual”](https://imgs.xkcd.com/comics/rtfm.png){target="_blank"} … which is not the easiest way to get at the answer you were going for! 
 
-Next steps are searching on Google and searching relevant forums. Common forums for data science problems include [StackOverflow](https://stackoverflow.com/) and [CrossValidated](https://stats.stackexchange.com/). Additionally, for you in this class, there is a [course forum](https://www.coursera.org/learn/data-scientists-tools/discussions) that is a great resource and super helpful! Before posting a question to any forum, try and double check that it hasn’t been asked before, using the forums’ search functions. 
+Next steps are searching on Google and searching relevant forums. Common forums for data science problems include [StackOverflow](https://stackoverflow.com/){target="_blank"} and [CrossValidated](https://stats.stackexchange.com/){target="_blank"}. Additionally, for you in this class, there is a [course forum](https://www.coursera.org/learn/data-scientists-tools/discussions){target="_blank"} that is a great resource and super helpful! Before posting a question to any forum, try and double check that it hasn’t been asked before, using the forums’ search functions. 
 
 While you are Googling, things to pay attention to and look for are: tutorials, FAQs, or vignettes of whatever command or program is giving you trouble. These are great resources to get you started – either in telling you the language/words to use in your next searches, or outright showing you how to do something. 
 
@@ -49,7 +49,7 @@ Easiest is to find a peer with some experience with what you are working on and 
 
 But, outside of this course, you may not have too many data science savvy peers – what then? 
 
-[“Rubber duck debugging”](https://en.wikipedia.org/wiki/Rubber_duck_debugging) is a long held tradition of solitary programmers everywhere. In the book [“The Pragmatic Programmer,”](https://pragprog.com/book/tpp/the-pragmatic-programmer) there is a story of how stumped programmers would explain their problem to a rubber duck, and in the process of explaining the problem, identify the solution. 
+[“Rubber duck debugging”](https://en.wikipedia.org/wiki/Rubber_duck_debugging){target="_blank"} is a long held tradition of solitary programmers everywhere. In the book [“The Pragmatic Programmer,”](https://pragprog.com/book/tpp/the-pragmatic-programmer){target="_blank"} there is a story of how stumped programmers would explain their problem to a rubber duck, and in the process of explaining the problem, identify the solution. 
 
 Wikipedia explains it well: 
 
@@ -111,11 +111,11 @@ Use titles that focus on the very specific core problem that you are trying to g
 
 ### Forum etiquette
 
-Following a lot of the tips above will serve you well in posting on forums and observing [forum etiquette](http://www.toptenreviews.com/services/articles/25-forum-posting-etiquette-tips/). You are asking for help, you are hoping somebody else will take time out of their day to help you – you need to be courteous. Often this takes the form of asking specific questions, doing some troubleshooting of your own, and giving potential problem solvers easy access to all the information they need to help you. Formalizing some of these do’s and don’t’s, you get the following lists: 
+Following a lot of the tips above will serve you well in posting on forums and observing [forum etiquette](http://www.toptenreviews.com/services/articles/25-forum-posting-etiquette-tips/){target="_blank"}. You are asking for help, you are hoping somebody else will take time out of their day to help you – you need to be courteous. Often this takes the form of asking specific questions, doing some troubleshooting of your own, and giving potential problem solvers easy access to all the information they need to help you. Formalizing some of these do’s and don’t’s, you get the following lists: 
 
 **Do's** 
 
-- Read the [forum posting guidelines](https://stackoverflow.com/help) 
+- Read the [forum posting guidelines](https://stackoverflow.com/help){target="_blank"} 
 
 - Make sure you are asking your question on an appropriate forum!
 

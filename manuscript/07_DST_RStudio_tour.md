@@ -1,6 +1,6 @@
 # RStudio Tour 
 
-Now that we have RStudio installed, we should familiarize ourselves with the various components and functionality of it! RStudio provides a cheatsheet of the [RStudio environment](https://github.com/rstudio/cheatsheets/raw/master/rstudio-ide.pdf) - warning: this link initiates a download of a PDF from the RStudio GitHub. 
+Now that we have RStudio installed, we should familiarize ourselves with the various components and functionality of it! RStudio provides a cheatsheet of the [RStudio environment](https://github.com/rstudio/cheatsheets/raw/master/rstudio-ide.pdf){target="_blank"} - warning: this link initiates a download of a PDF from the RStudio GitHub. 
 
 ### The various quadrants
 

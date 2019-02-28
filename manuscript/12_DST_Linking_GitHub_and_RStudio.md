@@ -24,7 +24,7 @@ Following this, in that same window again, click "View public key" and copy the 
 
 You have now created a key that is specific to you which we will provide to GitHub, so that it knows who you are when you commit a change from within RStudio. 
 
-To do so, go to [github.com/](https://github.com/), log-in if you are not already, and go to your account settings. There, go to "SSH and GPG keys" and click "New SSH key". Paste in the public key you have copied from RStudio into the Key box and give it a Title related to RStudio. Confirm the addition of the key with your GitHub password.
+To do so, go to [github.com/](https://github.com/){target="_blank"}, log-in if you are not already, and go to your account settings. There, go to "SSH and GPG keys" and click "New SSH key". Paste in the public key you have copied from RStudio into the Key box and give it a Title related to RStudio. Confirm the addition of the key with your GitHub password.
 
 ![**Location of "SSH and GPG keys" on your profile settings**](resources/images/12_DST_Linking_GitHub_and_RStudio/12_DST_Linking_GitHub_and_RStudio-05.png)
 

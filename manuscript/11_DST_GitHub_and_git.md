@@ -4,23 +4,23 @@ Now that we've got a handle on what version control is, in this lesson, you will
 
 ### What is GitHub?
 
-As we previously learned, [GitHub](https://github.com/) is a cloud-based management system for your version controlled files. Like DropBox, your files are both locally on your computer *and* hosted online and easily accessible. Its interface allows you to manage version control and provides users with a web-based interface for creating projects, sharing them, updating code, etc. 
+As we previously learned, [GitHub](https://github.com/){target="_blank"} is a cloud-based management system for your version controlled files. Like DropBox, your files are both locally on your computer *and* hosted online and easily accessible. Its interface allows you to manage version control and provides users with a web-based interface for creating projects, sharing them, updating code, etc. 
 
 ### Signing up for GitHub
 
-To get a GitHub account, first go to [https://github.com/](https://github.com/). You will be brought to their homepage, where you should fill in your information - make a username, put in your email, choose a secure password, and click "Sign up for GitHub."
+To get a GitHub account, first go to [https://github.com/](https://github.com/){target="_blank"}. You will be brought to their homepage, where you should fill in your information - make a username, put in your email, choose a secure password, and click "Sign up for GitHub."
 
 ![**Signing up for GitHub**](resources/images/11_DST_GitHub_and_git/11_DST_GitHub_and_git-03.PNG)
 
 ### Logging in to GitHub
 
-You should now be logged in to GitHub! In the future, to log on to GitHub, go to [https://github.com/](https://github.com/), where you will be presented with the homepage. If you aren't already logged in, click on the "Sign in" link at the top. 
+You should now be logged in to GitHub! In the future, to log on to GitHub, go to [https://github.com/](https://github.com/){target="_blank"}, where you will be presented with the homepage. If you aren't already logged in, click on the "Sign in" link at the top. 
 
 Once you've done that, you will see the log in page where you will enter in your username and password that you created earlier. 
 
 ![**GitHub's log in page**](resources/images/11_DST_GitHub_and_git/11_DST_GitHub_and_git-04.PNG)
 
-Once logged in, you will be back at [https://github.com/](https://github.com/), but this time the screen should look like this: 
+Once logged in, you will be back at [https://github.com/](https://github.com/){target="_blank"}, but this time the screen should look like this: 
 
 ![**GitHub's homepage at https://github.com/**](resources/images/11_DST_GitHub_and_git/11_DST_GitHub_and_git-05.PNG)
 
@@ -57,7 +57,7 @@ Along the lefthand side of this page, there are many options for you to explore.
 
 ![**Your account page**](resources/images/11_DST_GitHub_and_git/11_DST_GitHub_and_git-10.PNG)
 
-Here, you can edit your password or if you are unhappy with your username, change it. Be careful though, there can be [unintended consequences](https://help.github.com/articles/what-happens-when-i-change-my-username/) when you change your username - if you are just starting out and don't have any content yet, you'll probably be safe though. 
+Here, you can edit your password or if you are unhappy with your username, change it. Be careful though, there can be [unintended consequences](https://help.github.com/articles/what-happens-when-i-change-my-username/){target="_blank"} when you change your username - if you are just starting out and don't have any content yet, you'll probably be safe though. 
 
 Continue looking through the personal setting options on your own. When you are done, go back to your profile. 
 
@@ -69,7 +69,7 @@ By the end of the lecture though, check back to this page to find your newly cre
 
 ### Notifications  
 
-Next, we'll check out the [notifications menu](https://github.com/notifications). Along the menu bar across the top of your window, there is a bell icon, representing your notifications. Click on the bell. 
+Next, we'll check out the [notifications menu](https://github.com/notifications){target="_blank"}. Along the menu bar across the top of your window, there is a bell icon, representing your notifications. Click on the bell. 
 
 ![**Location of the bell icon**](resources/images/11_DST_GitHub_and_git/11_DST_GitHub_and_git-13.PNG)
 
@@ -79,7 +79,7 @@ Once you become more active on GitHub and are collaborating with others, here is
 
 ### Help files 
 
-Along the bottom of *every. single. page.* there is the ["Help" button](https://help.github.com/). GitHub has a great help system in place - if you ever have a question about GitHub, this should be your first point to search! Take some time now and look through the various help files, and see if any catch your eye.
+Along the bottom of *every. single. page.* there is the ["Help" button](https://help.github.com/){target="_blank"}. GitHub has a great help system in place - if you ever have a question about GitHub, this should be your first point to search! Take some time now and look through the various help files, and see if any catch your eye.
 
 ![**At the bottom of every page, you can find the Help page**](resources/images/11_DST_GitHub_and_git/11_DST_GitHub_and_git-15.PNG)
 
@@ -87,7 +87,7 @@ Along the bottom of *every. single. page.* there is the ["Help" button](https://
 
 ### The GitHub guide 
 
-GitHub recognizes that this can be an overwhelming process for new users, and as such have developed a mini tutorial to get you started with GitHub. Go through [this guide](https://guides.github.com/activities/hello-world/) now and create your first repository! When you are done, you should have a repository that looks something like this: 
+GitHub recognizes that this can be an overwhelming process for new users, and as such have developed a mini tutorial to get you started with GitHub. Go through [this guide](https://guides.github.com/activities/hello-world/){target="_blank"} now and create your first repository! When you are done, you should have a repository that looks something like this: 
 
 ![**Your first repository**](resources/images/11_DST_GitHub_and_git/11_DST_GitHub_and_git-18.PNG)
 
@@ -111,7 +111,7 @@ One of the main benefits of using the Git system is its compatibility with RStud
 
 ### Downloading and installing Git
 
-To download Git, go to [https://git-scm.com/download](https://git-scm.com/download). You should arrive at a webpage like this: 
+To download Git, go to [https://git-scm.com/download](https://git-scm.com/download){target="_blank"}. You should arrive at a webpage like this: 
 
 ![**Downloading Git from git-scm.com/download**](resources/images/11_DST_GitHub_and_git/11_DST_GitHub_and_git-22.PNG)
 
@@ -133,7 +133,7 @@ Doing so, a command line environment will open. Provided you accepted the defaul
 
 ### For Mac
 
-We will walk you through the most common installation process however, there are multiple ways to get Git onto your Mac. You can follow the tutorials at [https://www.atlassian.com/git/tutorials/install-git](https://www.atlassian.com/git/tutorials/install-git) for alternative installation routes. 
+We will walk you through the most common installation process however, there are multiple ways to get Git onto your Mac. You can follow the tutorials at [https://www.atlassian.com/git/tutorials/install-git](https://www.atlassian.com/git/tutorials/install-git){target="_blank"} for alternative installation routes. 
 
 After downloading the appropriate Git version for Macs, you should have downloaded a DMG file for installation on your Mac. Open this file. This will install Git on your computer. A new window will open.  
 

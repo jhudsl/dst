@@ -10,18 +10,18 @@ We used to make these courses like many other universities. We'd create course m
 
 The result is that a lot of our lectures have been out of date, include errors, or don't include the latest, best versions of workflows and pipelines. This has been a problem for a while, but as the number of courses we offer grows, it has become more and more of a challenge for us to keep them up to date. 
 
-So we started to think about how to solve this challenging problem. We realized that while recording and editing videos is extremely time consuming there is another type of content we can edit, update, and maintain much more frequently - [regular old plain text documents](https://simplystatistics.org/2017/06/13/the-future-of-education-is-plain-text/). We aren't the only ones who have thought this - massive online open course innovators like Lorena Barba have been saying that [videos aren't even necessary for these types of courses](https://www.class-central.com/report/why-my-mooc-is-not-built-on-video/). 
+So we started to think about how to solve this challenging problem. We realized that while recording and editing videos is extremely time consuming there is another type of content we can edit, update, and maintain much more frequently - [regular old plain text documents](https://simplystatistics.org/2017/06/13/the-future-of-education-is-plain-text/){target="_blank"}. We aren't the only ones who have thought this - massive online open course innovators like Lorena Barba have been saying that [videos aren't even necessary for these types of courses](https://www.class-central.com/report/why-my-mooc-is-not-built-on-video/){target="_blank"}. 
 
 So when we sat down to develop our new process for creating and maintaining our courses we wanted to see if we could figure out how to make a class made entirely out of plain text documents. We broke down a massive online open course into its basic elements:
 
 * __Tutorials__ - these we can easily write in plain text formats like markdown or R markdown. 
-* __Slides__ - these are easy enough to maintain and share if we make them with something like [Google Slides](https://www.google.com/slides/about/).
-* __Assessments__ - here we can use a [markup language](https://leanpub.com/markua/read#leanpub-auto-quizzes-and-exercises) to create quizzes and other assessments. 
+* __Slides__ - these are easy enough to maintain and share if we make them with something like [Google Slides](https://www.google.com/slides/about/){target="_blank"}.
+* __Assessments__ - here we can use a [markup language](https://leanpub.com/markua/read#leanpub-auto-quizzes-and-exercises){target="_blank"} to create quizzes and other assessments. 
 * __Videos__ - this was the sticking point, how were we going to make videos from plain text documents? 
 
-By a happy coincidence, the data science and artificial intelligence communities were solving a huge part of this problem for us, improving text to voice synthesis! So we could now write a script for a video and use [Amazon Polly](https://aws.amazon.com/polly/) to synthesize our voices! 
+By a happy coincidence, the data science and artificial intelligence communities were solving a huge part of this problem for us, improving text to voice synthesis! So we could now write a script for a video and use [Amazon Polly](https://aws.amazon.com/polly/){target="_blank"} to synthesize our voices! 
 
-To take advantage of this new technology we created two new R packages: [ari](https://cran.r-project.org/web/packages/ari/index.html) and [didactr](https://github.com/muschellij2/didactr).
+To take advantage of this new technology we created two new R packages: [ari](https://cran.r-project.org/web/packages/ari/index.html){target="_blank"} and [didactr](https://github.com/muschellij2/didactr){target="_blank"}.
 
 Ari will take a script and a set of Google Slides and narrate the script over the slides using Amazon Polly. It will also generate the closed caption file needed to include captions and ensure that the videos are accessible to those with hearing impairment. Didactr automates several of the steps from creating the videos with ari to uploading them to YouTube, so that we can quickly make edits to the scripts or slides, remake the videos, re-upload them, and reduce our maintainence overhead for keeping our content fresh.  
 

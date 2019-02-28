@@ -4,7 +4,7 @@ Now that we've installed R and RStudio and have a basic understanding of how the
 
 ### What is an R package? 
 
-So far, anything we've played around with in R uses the "base" R system. Base R, or everything included in R when you download it, has rather basic functionality for statistics and plotting but it can sometimes be limiting. To expand upon R's basic functionality, people have developed **packages.** A package is a collection of functions, data, and code conveniently provided in a nice, complete format for you. At the time of writing, there are just over 14,300 packages available to download - each with their own specialized functions and code, all for some different purpose. For a really in depth look at R Packages (what they are, how to develop them), check out Hadley Wickham's book from O'Reilly, ["R Packages."](http://r-pkgs.had.co.nz/)
+So far, anything we've played around with in R uses the "base" R system. Base R, or everything included in R when you download it, has rather basic functionality for statistics and plotting but it can sometimes be limiting. To expand upon R's basic functionality, people have developed **packages.** A package is a collection of functions, data, and code conveniently provided in a nice, complete format for you. At the time of writing, there are just over 14,300 packages available to download - each with their own specialized functions and code, all for some different purpose. For a really in depth look at R Packages (what they are, how to develop them), check out Hadley Wickham's book from O'Reilly, ["R Packages."](http://r-pkgs.had.co.nz/){target="_blank"}
 
 *Side note:* A package is not to be confused with a **library** (these two terms are often conflated in colloquial speech about R). A library is the place where the package is located on your computer. To think of an analogy, a library is, well, a library... and a package is a book within the library. The library is where the books/packages are located. 
 
@@ -15,9 +15,9 @@ Packages are what make R so unique. Not only does base R have some great functio
 A repository is a central location where many developed packages are located and available for download.
 
 There are three big repositories:  
-    1. [**CRAN (Comprehensive R Archive Network):**](https://cran.r-project.org/web/packages/) R's main repository (>12,100 packages available!)  
-    2. [**BioConductor:**](https://bioconductor.org/packages/release/BiocViews.html#___Software) A repository mainly for bioinformatic-focused packages  
-    3. [**GitHub:**](https://github.com/collections) A very popular, open source repository (not R specific!)  
+    1. [**CRAN (Comprehensive R Archive Network):**](https://cran.r-project.org/web/packages/){target="_blank"} R's main repository (>12,100 packages available!)  
+    2. [**BioConductor:**](https://bioconductor.org/packages/release/BiocViews.html#___Software){target="_blank"} A repository mainly for bioinformatic-focused packages  
+    3. [**GitHub:**](https://github.com/collections){target="_blank"} A very popular, open source repository (not R specific!)  
     
 Take a second to explore the links above and check out the various packages that are out there!  
 
@@ -27,11 +27,11 @@ Take a second to explore the links above and check out the various packages that
 
 So you know where to find packages... but there are so many of them, how can you find a package that will do what you are trying to do in R? There are a few different avenues for exploring packages. 
 
-First, CRAN groups all of its packages by their functionality/topic into 35 "themes." It calls this its ["Task view."](https://cran.r-project.org/web/views/) This at least allows you to narrow the packages you can look through to a topic relevant to your interests. 
+First, CRAN groups all of its packages by their functionality/topic into 35 "themes." It calls this its ["Task view."](https://cran.r-project.org/web/views/){target="_blank"} This at least allows you to narrow the packages you can look through to a topic relevant to your interests. 
 
 ![**CRAN's "Task View" that groups packages into 35 topics**](resources/images/08_DST_R_packages/08_DST_R_packages-04.png)
 
-Second, there is a great website, [**RDocumentation,**](https://www.rdocumentation.org) which is a search engine for packages and functions from CRAN, BioConductor, and GitHub (ie: the big three repositories). If you have a task in mind, this is a great way to search for specific packages to help you accomplish that task! It also has a ["task" view](https://www.rdocumentation.org/taskviews) like CRAN, that allows you to browse themes. 
+Second, there is a great website, [**RDocumentation,**](https://www.rdocumentation.org){target="_blank"} which is a search engine for packages and functions from CRAN, BioConductor, and GitHub (ie: the big three repositories). If you have a task in mind, this is a great way to search for specific packages to help you accomplish that task! It also has a ["task" view](https://www.rdocumentation.org/taskviews){target="_blank"} like CRAN, that allows you to browse themes. 
    
 More often, if you have a specific task in mind, Googling that task followed by "R package" is a great place to start! From there, looking at tutorials, vignettes, and forums for people already doing what you want to do is a great way to find relevant packages. 
 
@@ -53,14 +53,14 @@ If you want to use RStudio's graphical interface to install packages, go to the 
 ![**Installing packages from CRAN through R/RStudio**](resources/images/08_DST_R_packages/08_DST_R_packages-07.png)
 
 **Installing from Bioconductor**  
-The BioConductor repository uses their own method to [install packages](https://www.bioconductor.org/install/). First, to get the basic functions required to install through BioConductor, use: `source("https://bioconductor.org/biocLite.R")`
+The BioConductor repository uses their own method to [install packages](https://www.bioconductor.org/install/){target="_blank"}. First, to get the basic functions required to install through BioConductor, use: `source("https://bioconductor.org/biocLite.R")`
 
 This makes the main install function of BioConductor, `biocLite()`, available to you. Following this, you call the package you want to install in quotes, between the parentheses of the `biocLite` command, like so: `biocLite("GenomicFeatures")`
 
 ![**Installing packages with BioConductor**](resources/images/08_DST_R_packages/08_DST_R_packages-08.png)
 
 **Installing from GitHub**  
-This is a more specific case that you probably won't run into too often. In the event you want to do this, you first must find the package you want on GitHub and take note of both the package name AND the author of the package. Check out [this guide](http://kbroman.org/pkg_primer/pages/github.html) for installing from GitHub, but the general workflow is:   
+This is a more specific case that you probably won't run into too often. In the event you want to do this, you first must find the package you want on GitHub and take note of both the package name AND the author of the package. Check out [this guide](http://kbroman.org/pkg_primer/pages/github.html){target="_blank"} for installing from GitHub, but the general workflow is:   
 
 1. `install.packages("devtools")` - only run this if you don't already have devtools installed. If you've been following along with this lesson, you may have installed it when we were practicing installations using the R console  
 2. `library(devtools)` - more on what this command is doing immediately below this  
@@ -149,4 +149,4 @@ If you still have questions about what functions within a package are right for 
 
 In this lesson, we've explored R packages in depth. We examined what a packages is (and how it differs from a library), what repositories are, and how to find a package relevant to your interests. We investigated all aspects of how packages work: how to install them (from the various repositories), how to load them, how to check which packages are installed, and how to update, uninstall, and unload packages. We took a small detour and looked at how to check what version of R you have, which is often an important detail to know when installing packages. And finally, we spent some time learning how to explore help files and vignettes, which often give you a good idea of how to use a package and all of its functions. 
 
-If you still want to learn more about R packages, here are two great resources! [R Packages: A Beginner's Guide](https://www.datacamp.com/community/tutorials/r-packages-guide) from Adolfo Álvarez on DataCamp and a lesson from the University of Washington, on an [Introduction to R Packages](http://faculty.washington.edu/kenrice/rintro/sess08.pdf) from Ken Rice and Timothy Thornton. 
+If you still want to learn more about R packages, here are two great resources! [R Packages: A Beginner's Guide](https://www.datacamp.com/community/tutorials/r-packages-guide){target="_blank"} from Adolfo Álvarez on DataCamp and a lesson from the University of Washington, on an [Introduction to R Packages](http://faculty.washington.edu/kenrice/rintro/sess08.pdf){target="_blank"} from Ken Rice and Timothy Thornton. 

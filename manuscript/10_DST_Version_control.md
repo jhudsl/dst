@@ -3,9 +3,9 @@
 Now that we've got a handle on R, RStudio, and projects, there are a few more things we want to set you up with before moving on to the other courses - understanding version control, installing Git, and linking Git with RStudio. In this lesson, we'll give you a basic understanding of version control. 
 
 ### What is version control?
-First things first: What is version control? Version control is a system that records changes that are made to a file or a set of files over time. As you make edits, the version control system takes snapshots of your files and the changes, and then saves those snapshots so you can refer or revert back to previous versions later if need be! If you've ever used the "Track changes" feature in Microsoft Word, you have seen a rudimentary type of version control, in which the changes to a file are tracked, and you can either choose to keep those edits or revert to the original format. Version control systems, like [Git](https://git-scm.com/), are like a more sophisticated "Track changes" - in that they are far more powerful and are capable of meticulously tracking successive changes on many files, with potentially many people working simultaneously on the same groups of files. 
+First things first: What is version control? Version control is a system that records changes that are made to a file or a set of files over time. As you make edits, the version control system takes snapshots of your files and the changes, and then saves those snapshots so you can refer or revert back to previous versions later if need be! If you've ever used the "Track changes" feature in Microsoft Word, you have seen a rudimentary type of version control, in which the changes to a file are tracked, and you can either choose to keep those edits or revert to the original format. Version control systems, like [Git](https://git-scm.com/){target="_blank"}, are like a more sophisticated "Track changes" - in that they are far more powerful and are capable of meticulously tracking successive changes on many files, with potentially many people working simultaneously on the same groups of files. 
 
-If you've ever worked collaboratively on a document before, [this comic](http://phdcomics.com/comics/archive.php?comicid=1531) from PHD Comics might resonate with you. 
+If you've ever worked collaboratively on a document before, [this comic](http://phdcomics.com/comics/archive.php?comicid=1531){target="_blank"} from PHD Comics might resonate with you. 
 
 Hopefully, once you've mastered version control software, Paper_Final_FINAL2_actually_FINAL.docx will be a thing of the past for you! 
 
@@ -23,7 +23,7 @@ Finally, when working with a group of people on the same set of files, version c
 
 ### What is Git? Why should you use it?
 
-Git is a free and open source version control system. It was developed in 2005 and has since become *the* most commonly used version control system around!  StackOverflow, which should sound familiar from our Getting Help lesson, surveyed over 60,000 respondents on which version control system they use, and as you can tell from the chart below, [Git is by far the winner](https://insights.stackoverflow.com/survey/2017#work-version-control). 
+Git is a free and open source version control system. It was developed in 2005 and has since become *the* most commonly used version control system around!  StackOverflow, which should sound familiar from our Getting Help lesson, surveyed over 60,000 respondents on which version control system they use, and as you can tell from the chart below, [Git is by far the winner](https://insights.stackoverflow.com/survey/2017#work-version-control){target="_blank"}. 
 
 ![**Results of a StackOverflow survey asking which version control software their respondents use**](resources/images/10_DST_Version_control/10_DST_Version_control-06.PNG)
 
@@ -75,7 +75,7 @@ One of those things is to make purposeful commits. Each commit should only addre
 
 Similarly, making sure you write informative messages on each commit is a helpful habit to get into. If each message is precise in what was being changed, anybody can examine the committed file and identify the purpose for your change. Additionally, if you are looking for a specific edit you made in the past, you can easily scan through all of your commits to identify those changes related to the desired edit. 
 
-You don't want to get in the same habit that [XKCD](https://xkcd.com/1296/) has! 
+You don't want to get in the same habit that [XKCD](https://xkcd.com/1296/){target="_blank"} has! 
 
 Finally, be cognizant of the version of files you are working on. Frequently check that you are up to date with the current repo by frequently pulling. Additionally, don't horde your edited files - once you have committed your files (and written that helpful message!), you should push those changes to the common repository. If you are done editing a section of code and are planning on moving on to an unrelated problem, you need to share that edit with your collaborators! 
 
@@ -83,4 +83,4 @@ Finally, be cognizant of the version of files you are working on. Frequently che
 
 ### Summary
 
-Now that we've covered what version control is and some of the benefits, you should be able to understand why we have three whole lessons dedicated to version control and installing it. We looked at what Git and GitHub are, and then covered much of the commonly used (and sometimes confusing!) vocabulary inherent to version control work. We then quickly went over some best practices to using Git -- but the best way to get a hang of this all is to use it! Hopefully you feel like you have a better handle on how Git works than the people in [this XKCD comic](https://xkcd.com/1597/)! So let's move on to the next lesson and get it installed! 
+Now that we've covered what version control is and some of the benefits, you should be able to understand why we have three whole lessons dedicated to version control and installing it. We looked at what Git and GitHub are, and then covered much of the commonly used (and sometimes confusing!) vocabulary inherent to version control work. We then quickly went over some best practices to using Git -- but the best way to get a hang of this all is to use it! Hopefully you feel like you have a better handle on how Git works than the people in [this XKCD comic](https://xkcd.com/1597/){target="_blank"}! So let's move on to the next lesson and get it installed! 

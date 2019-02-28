@@ -1,6 +1,6 @@
 # R Projects 
 
-One of the ways people organize their work in R is through the use of R Projects, a built in functionality of RStudio that helps to keep all your related files together. RStudio provides a [great guide](https://support.rstudio.com/hc/en-us/articles/200526207-Using-Projects) on how to use Projects so definitely check that out! 
+One of the ways people organize their work in R is through the use of R Projects, a built in functionality of RStudio that helps to keep all your related files together. RStudio provides a [great guide](https://support.rstudio.com/hc/en-us/articles/200526207-Using-Projects){target="_blank"} on how to use Projects so definitely check that out! 
 
 ### What is an R Project? 
 

@@ -6,11 +6,11 @@ Since we've spent some time discussing what data science is, we should spend som
 
 First, let's look at what a few trusted sources consider data to be.  
 
-First up, we'll look at the [Cambridge English Dictionary](https://dictionary.cambridge.org/dictionary/english/data), which states that data is:  
+First up, we'll look at the [Cambridge English Dictionary](https://dictionary.cambridge.org/dictionary/english/data){target="_blank"}, which states that data is:  
 
 > Information, especially facts or numbers, collected to be examined and considered and used to help decision-making.  
   
-Second, we'll look at the definition provided by [Wikipedia](https://en.wikipedia.org/wiki/Data), which is:  
+Second, we'll look at the definition provided by [Wikipedia](https://en.wikipedia.org/wiki/Data){target="_blank"}, which is:  
 
 > A set of values of qualitative or quantitative variables.  
 
@@ -58,7 +58,7 @@ Here are just some of the data sources you might encounter and we'll briefly loo
 
 ### Messy data: Sequencing 
 
-One type of data, that I work with regularly, is [sequencing data](https://www.ncbi.nlm.nih.gov/sra). This data is generally first encountered in the FASTQ format, the raw file format produced by sequencing machines. These files are often hundreds of millions of lines long, and it is our job to parse this into an understandable and interpretable format and infer something about that individual's genome. In this case, this data was interpreted into expression data, and produced a plot called a "volcano plot".
+One type of data, that I work with regularly, is [sequencing data](https://www.ncbi.nlm.nih.gov/sra){target="_blank"}. This data is generally first encountered in the FASTQ format, the raw file format produced by sequencing machines. These files are often hundreds of millions of lines long, and it is our job to parse this into an understandable and interpretable format and infer something about that individual's genome. In this case, this data was interpreted into expression data, and produced a plot called a "volcano plot".
 
 ![**A volcano plot is produced at the end of a long process to wrangle the raw FASTQ data into interpretable expression data**](resources/images/02_DST_What_is_data/02_DST_What_is_data-06.png)
 
@@ -68,7 +68,7 @@ One rich source of information is country wide censuses. In these, almost all me
 
 ![**The US population is stratified by sex and age to produce a population pyramid plot**](resources/images/02_DST_What_is_data/02_DST_What_is_data-07.png)
 
-[Here](https://www.census.gov/popclock/) is the US census website and [some tools to help you examine it](http://guides.library.ucla.edu/c.php?g=180339&p=1189478), but if you aren't from the US, I urge you to check out your home country's census bureau (if available) and look at some of the data there!  
+[Here](https://www.census.gov/popclock/){target="_blank"} is the US census website and [some tools to help you examine it](http://guides.library.ucla.edu/c.php?g=180339&p=1189478){target="_blank"}, but if you aren't from the US, I urge you to check out your home country's census bureau (if available) and look at some of the data there!  
 
 ### Messy data: Electronic medical records (EMR)
 
@@ -76,11 +76,11 @@ Electronic medical records are increasingly prevalent as a way to store health i
 
 ### Messy data: Image analysis/extrapolation
 
-A more complex data source to analyse are images/videos. There is a wealth of information coded in an image or video, and it is just waiting to be extracted. An example of image analysis that you may be familiar with is when you upload a picture to Facebook and not only does it automatically recognize faces in the picture, but then suggests who they may be. A fun example you can play with is the [DeepDream software](https://deepdreamgenerator.com/) that was originally designed to detect faces in an image, but has since moved on to more _artistic_ pursuits. 
+A more complex data source to analyse are images/videos. There is a wealth of information coded in an image or video, and it is just waiting to be extracted. An example of image analysis that you may be familiar with is when you upload a picture to Facebook and not only does it automatically recognize faces in the picture, but then suggests who they may be. A fun example you can play with is the [DeepDream software](https://deepdreamgenerator.com/){target="_blank"} that was originally designed to detect faces in an image, but has since moved on to more _artistic_ pursuits. 
 
 ![**The DeepDream software is trained on your image and a famous painting and your provided image is then rendered in the style of the famous painter**](resources/images/02_DST_What_is_data/02_DST_What_is_data-09.png)
 
-There is another fun Google initiative involving image analysis, where you help provide data to Google's machine learning algorithm... [by doodling!](https://quickdraw.withgoogle.com/)
+There is another fun Google initiative involving image analysis, where you help provide data to Google's machine learning algorithm... [by doodling!](https://quickdraw.withgoogle.com/){target="_blank"}
 
 ### Data is of secondary importance
 

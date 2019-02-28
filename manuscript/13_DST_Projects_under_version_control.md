@@ -46,7 +46,7 @@ If there is an existing project that others are working on that you are asked to
 
 ![**Clone an existing project from GitHub from within RStudio**](resources/images/13_DST_Projects_under_version_control/13_DST_Projects_under_version_control-10.png)
 
-All the existing files in the repository should now be stored locally on your computer and you have the ability to push edits from your RStudio interface. The only difference from the last lesson is that you did not create the original repository, instead you cloned somebody else's. 
+All the existing files in the repository should now be stored locally on your computer and you have the ability to push edits from your RStudio interface. The only difference from the last lesson is that you did not create the original repository, instead you cloned somebody else's.  
 
 ### Summary 
 

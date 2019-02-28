@@ -4,11 +4,11 @@ We've installed R and can open the R interface to input code, but there are othe
 
 ### What is RStudio? 
 
-[RStudio](https://www.rstudio.com/products/RStudio/) is a graphical user interface for R, that allows you to write, edit and store code, generate, view and store plots, manage files, objects and dataframes, and integrate with version control systems -- to name a few of its functions. We will be exploring exactly what RStudio can do for you in future lessons, but for anybody just starting out with R coding, the visual nature of this program as an interface for R is a huge benefit.
+[RStudio](https://www.rstudio.com/products/RStudio/){target="_blank"} is a graphical user interface for R, that allows you to write, edit and store code, generate, view and store plots, manage files, objects and dataframes, and integrate with version control systems -- to name a few of its functions. We will be exploring exactly what RStudio can do for you in future lessons, but for anybody just starting out with R coding, the visual nature of this program as an interface for R is a huge benefit.
 
 ### Installing RStudio  
 
-Thankfully, installation of RStudio is fairly straightforward. First, you go to the [RStudio download page](https://www.rstudio.com/products/rstudio/download/https://www.rstudio.com/products/rstudio/download/). We want to download the RStudio Desktop version of the software, so click on the appropriate "Download" , under that heading and you will see a list of ["Installers for supported platforms"](https://www.rstudio.com/products/rstudio/download/#download). 
+Thankfully, installation of RStudio is fairly straightforward. First, you go to the [RStudio download page](https://www.rstudio.com/products/rstudio/download/https://www.rstudio.com/products/rstudio/download/){target="_blank"}. We want to download the RStudio Desktop version of the software, so click on the appropriate "Download" , under that heading and you will see a list of ["Installers for supported platforms"](https://www.rstudio.com/products/rstudio/download/#download){target="_blank"}. 
 
 ![**The RStudio download page. Select RStudio Desktop**](resources/images/06_DST_Installing_RStudio/06_DST_Installing_RStudio-04.png)
 
